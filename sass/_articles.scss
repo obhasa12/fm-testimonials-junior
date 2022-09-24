@@ -51,5 +51,30 @@
     &__description5{
         color: hsla(217, 19%, 35%, 75%);
     }
-
+    &__image1{
+        border: 2px solid hsla(0, 0%, 81%, 50%);
+    }
+    &__image4{
+        border: 2px solid v.$cl-primary-moderateViolet;
+    }
 }
+
+// .art1{
+//     grid-area: articleone;
+// }
+
+// .art2{
+//     grid-area: articletwo;
+// }
+
+// .art3{
+//     grid-area: articlethree;
+// }
+
+// .art4{
+//     grid-area: articlefour;
+// }
+
+// .art5{
+//     grid-area: articlefive;
+// }

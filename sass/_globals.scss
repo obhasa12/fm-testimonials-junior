@@ -1,4 +1,5 @@
 @use "variables" as v;
+@use "mixins" as m;
 
 html{
     font-size: 100%;
@@ -15,10 +16,21 @@ body{
     margin: 71px 24px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: v.$cl-neutral-lt-grayishBlue;
+    @include m.breakpoints-up(large){
+        margin: 0 24px;
+    }
 }
 .container{
     display: grid;
-    gap: 24px;
+    gap: 32px;
+    @include m.breakpoints-up(large){
+        margin: 30px 166px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'articleone articleone articletwo articlefive'
+        'articlethree articlefour articlefour articlefive';
+    }
+
 }
 .article-format{
     padding: 0 29px;
@@ -67,3 +79,28 @@ body{
     
 }
 
+@include m.breakpoints-up(large){
+    .art1{
+        grid-area: articleone;
+    }
+
+    .art2{
+        grid-area: articletwo;
+    }
+
+    .art3{
+        grid-area: articlethree;
+    }
+
+    .art4{
+        grid-area: articlefour;
+    }
+
+    .art5{
+        grid-area: articlefive;
+    }
+}
+
+// .articleone{
+//     background-color: green;
+// }
