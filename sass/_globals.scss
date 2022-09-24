@@ -21,11 +21,13 @@ body{
     gap: 24px;
 }
 .article-format{
-    padding: 0 32px;
+    padding: 0 29px;
     padding-top: 26px;
     padding-bottom: 36px;
     width: 100%;
-    border: 2px black solid;
+    color: v.$cl-neutral-lt-gray;
+    // border: 2px black solid;
+    border-radius: 10px;
     & .article__header{
         display: flex;
         flex-direction: row;
@@ -35,12 +37,11 @@ body{
         margin-right: 17px;
         width: 40px;
         height: 40px;
-        border: 2px solid red;
         border-radius: 100%;
     }
     &>h2{
         margin-bottom: 21px;
-        font-size: 21px;
+        font-size: 20px;
     }
     &:first-child{
         background-color: v.$cl-primary-moderateViolet;
@@ -52,6 +53,7 @@ body{
         background-color: v.$cl-primary-dark-grayishBlue;
     }
     &:nth-child(3){
+        color: v.$cl-primary-dark-grayishBlue;
         background-color: v.$cl-primary-white;
     }
     &:nth-child(4){
@@ -59,6 +61,7 @@ body{
         background-color: v.$cl-primary-dark-blackishBlue;
     }
     &:last-child{
+        color: v.$cl-primary-dark-grayishBlue;
         background-color: v.$cl-primary-white;
     }
     

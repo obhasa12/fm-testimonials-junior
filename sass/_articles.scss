@@ -1,0 +1,55 @@
+@use 'variables' as v;
+
+.article{
+   
+    &__name1{
+        color: v.$cl-neutral-lt-gray;
+    }
+    &__status1{
+        color: hsla(0, 0%, 81%, 50%);
+    }
+    &__description1{
+        color: hsla(0, 0%, 81%, 75%);
+    }
+
+    &__name2{
+        color: v.$cl-neutral-lt-gray;
+    }
+    &__status2{
+        color: hsla(0, 0%, 81%, 50%);
+    }
+    &__description2{
+        color: hsla(0, 0%, 81%, 75%);
+    }
+
+    &__name3{
+        color: v.$cl-primary-dark-grayishBlue;
+    }
+    &__status3{
+        color: hsla(217, 19%, 35%, 50%);
+    }
+    &__description3{
+        color: hsla(217, 19%, 35%, 75%);
+    }
+
+    &__name4{
+        color: v.$cl-neutral-lt-gray;
+    }
+    &__status4{
+        color: hsla(0, 0%, 81%, 50%);
+    }
+    &__description4{
+        color: hsla(0, 0%, 81%, 75%);
+    }
+
+    &__name5{
+        color: v.$cl-primary-dark-grayishBlue;
+    }
+    &__status5{
+        color: hsla(217, 19%, 35%, 50%);
+    }
+    &__description5{
+        color: hsla(217, 19%, 35%, 75%);
+    }
+
+}

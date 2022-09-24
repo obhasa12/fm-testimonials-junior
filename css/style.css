@@ -24,11 +24,12 @@ body {
 }
 
 .article-format {
-  padding: 0 32px;
+  padding: 0 29px;
   padding-top: 26px;
   padding-bottom: 36px;
   width: 100%;
-  border: 2px black solid;
+  color: hsl(0deg, 0%, 81%);
+  border-radius: 10px;
 }
 .article-format .article__header {
   display: flex;
@@ -39,12 +40,11 @@ body {
   margin-right: 17px;
   width: 40px;
   height: 40px;
-  border: 2px solid red;
   border-radius: 100%;
 }
 .article-format > h2 {
   margin-bottom: 21px;
-  font-size: 21px;
+  font-size: 20px;
 }
 .article-format:first-child {
   background-color: hsl(263deg, 55%, 52%);
@@ -56,6 +56,7 @@ body {
   background-color: hsl(217deg, 19%, 35%);
 }
 .article-format:nth-child(3) {
+  color: hsl(217deg, 19%, 35%);
   background-color: hsl(0deg, 0%, 100%);
 }
 .article-format:nth-child(4) {
@@ -63,5 +64,52 @@ body {
   background-color: hsl(219deg, 29%, 14%);
 }
 .article-format:last-child {
+  color: hsl(217deg, 19%, 35%);
   background-color: hsl(0deg, 0%, 100%);
+}
+
+.article__name1 {
+  color: hsl(0deg, 0%, 81%);
+}
+.article__status1 {
+  color: hsla(0deg, 0%, 81%, 0.5);
+}
+.article__description1 {
+  color: hsla(0deg, 0%, 81%, 0.75);
+}
+.article__name2 {
+  color: hsl(0deg, 0%, 81%);
+}
+.article__status2 {
+  color: hsla(0deg, 0%, 81%, 0.5);
+}
+.article__description2 {
+  color: hsla(0deg, 0%, 81%, 0.75);
+}
+.article__name3 {
+  color: hsl(217deg, 19%, 35%);
+}
+.article__status3 {
+  color: hsla(217deg, 19%, 35%, 0.5);
+}
+.article__description3 {
+  color: hsla(217deg, 19%, 35%, 0.75);
+}
+.article__name4 {
+  color: hsl(0deg, 0%, 81%);
+}
+.article__status4 {
+  color: hsla(0deg, 0%, 81%, 0.5);
+}
+.article__description4 {
+  color: hsla(0deg, 0%, 81%, 0.75);
+}
+.article__name5 {
+  color: hsl(217deg, 19%, 35%);
+}
+.article__status5 {
+  color: hsla(217deg, 19%, 35%, 0.5);
+}
+.article__description5 {
+  color: hsla(217deg, 19%, 35%, 0.75);
 }/*# sourceMappingURL=style.css.map */
